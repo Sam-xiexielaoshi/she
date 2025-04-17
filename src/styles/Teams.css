@@ -1,0 +1,109 @@
+.team-section {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #ffddeb 0%, #ffffff 100%);
+  min-height: 100vh;
+}
+
+.team-title {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.dev-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.dev-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 400px;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dev-card:hover {
+  transform: translateY(-5px);
+}
+
+.rounded-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.dev-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.dev-card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.github-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+.github-link:hover {
+  background: #555;
+}
+
+@media (max-width: 1024px) {
+  .dev-container {
+    gap: 20px;
+  }
+
+  .dev-card {
+    width: 220px;
+  }
+
+  .rounded-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 1024px) {
+  .dev-card {
+    flex: 0 0 250px;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+  }
+
+  .rounded-image {
+    width: 150px;
+    height: 150px;
+  }
+}

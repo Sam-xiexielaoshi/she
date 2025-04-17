@@ -1,0 +1,23 @@
+/* Main container to ensure proper layout */
+.map-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the screen */
+    height: 100vh; /* Full height of the screen */
+    display: flex;
+    align-items: center; /* Center iframe content */
+    justify-content: center;
+    background-color: #fff; /* Optional: Background color */
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Iframe styling to make it responsive */
+  .map-iframe {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    border: none; /* Remove border around iframe */
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
+  }
+  

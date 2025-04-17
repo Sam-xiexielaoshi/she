@@ -1,0 +1,31 @@
+/* Styles for NotFound Component */
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px; /* Adds top padding and avoids horizontal overflow */
+    height: 100vh; /* Ensures full viewport height */
+    box-sizing: border-box; /* Includes padding in the element's dimensions */
+    text-align: center; /* Centers text */
+}
+
+.not-found-image {
+    max-width: 85%; /* Ensures image does not overflow horizontally */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 10px; /* Adds space below the image */
+}
+
+.not-found-heading {
+    font-size: 1.5rem; /* Adjusts font size for better readability */
+    color: #333; /* Sets a subtle color for the heading */
+}
+
+.text-danger {
+    color: red; /* Ensures consistency for 'danger' class */
+}
+
+body {
+    margin: 0; /* Removes default body margin to prevent unintended scrolls */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}

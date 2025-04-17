@@ -1,0 +1,43 @@
+/* Main container styling */
+.sheride-container {
+    display: none; /* Hidden by default for larger screens */
+  }
+  
+  /* Image wrapper to control layout */
+  .sheride-image-wrapper {
+    position: fixed; /* Fixed to the screen */
+    top: 15px; /* Add margin for Navbar */
+    left: 0;
+    width: 100%; /* Full width */
+    /* background-color: red; */
+    height: calc(100vh - 15px); /* Full height minus Navbar height */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the image */
+    background-color: #fff; /* Optional: background color */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  /* Image styling */
+  .sheride-image {
+    max-width: 100%; /* Scale image to fit width */
+    max-height: 100%; /* Scale image to fit height */
+    background-color: rgb(221, 101, 165);
+    object-fit: contain; /* Maintain aspect ratio without zooming or cropping */
+    border: none;
+  }
+  
+  /* For small screens, show the SheRide component */
+  @media screen and (max-width: 768px) {
+    .sheride-container {
+      display: block; /* Show only on mobile screens */
+      position: fixed;
+      /* background-color: rgb(218, 2, 38); */
+      top: 0;
+      left: 0;
+      width: 100%; /* Full screen width */
+      height: 100vh; /* Full screen height */
+      overflow: hidden; /* Prevent scrolling */
+    }
+  }
+  
