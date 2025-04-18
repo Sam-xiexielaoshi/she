@@ -11,25 +11,25 @@ const Teams = () => {
     {
       name: "Kashish Rajput",
       image: girl1,
-      domain: "Cutie",
+      domain: "ml dev",
       github: "https://github.com/kashishrajputt",
     },
     {
       name: "Mushkan Chandravanshi",
       image: girl2,
-      domain: "Pookie",
+      domain: "web dev",
       github: "https://github.com/mushkan200",
     },
     {
       name: "Rio Deb",
       image: girl3,
-      domain: "Heart throb",
+      domain: "integration engineer/team lead",
       github: "https://github.com/riocodez12",
     },
     {
       name: "Samagra Singh",
       image: girl4,
-      domain: "Stupid One",
+      domain: "web dev",
       github: "https://github.com/Sam-xiexielaoshi",
     },
   ];
